@@ -53,3 +53,37 @@ Example:
 ```
 
 [Solution](./15.repli.hs)
+
+
+## Problem 16
+Drop every N'th element from a list.
+
+Example:
+```hs
+λ> dropEvery "abcdefghik" 3
+"abdeghk"
+```
+
+[Solution](./16.dropEvery.hs)
+
+## Problem 17
+Split a list into two parts; the length of the first part is given.
+
+Example:
+```hs
+
+  λ> split "abcdefghik" 3
+  ("abc", "defghik")
+
+```
+
+## Problem 18
+Extract a slice from a list.
+
+Example:
+```hs
+  λ> slice ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k'] 3 7
+  "cdefg"
+```
+
+[Solution](./18.slice.hs)
